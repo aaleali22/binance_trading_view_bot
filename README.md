@@ -1,1 +1,2 @@
 # binance_trading_view_bot
+This application connects your trading view account with your binance account to make crypto buys and sells. The profitiablity depends on your own trading view strategies. The basic pipeline is that you make a strategy on trading view, you use the built in alerts to send a webhook with a json formatted payload which you then interpret in the app.py file and are able to execute the desired commands. There is an additional feature to send you an email whenever such an event occurs.
